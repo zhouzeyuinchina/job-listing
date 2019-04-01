@@ -1,41 +1,64 @@
-  <div class="jumbotron">
-    <h1 class="title">18K Offer</h1>
-    <p class="slogan">18K Offer 是一个提供18K薪水工作机会的求职网站。
-    <br>
-    我们希望藉由这个网站，能让大家找到且应征上高薪且优质的工作。
-    <br>
-     凭借自己的努力和天份也会变 Winner
-    </p>
-    <p class="lead"><a class="btn btn-lg btn-danger" href="/jobs">马上应征</a></p>
+<div class="col-md-12">
+  <div class="row box">
+    <div class="box-inner col-md-6 col-md-offset-3">
+      <h1 class="title">FTR Offer</h1>
+      <p class="slogan">FTR Offer 是一个提供招聘者与未来雇主连接的网站。
+        <br>
+        我们希望借由这个网站，能让大家找到且应征上高薪且优质的工作。
+        <br>
+        凭借自己的努力和天份也会变 Winner
+      </p>
+      <p class="lead">
+        <%= link_to '马上应征', jobs_path, class: 'btn btn-danger' %>
+      </p>
+    </div>
   </div>
+</div>
 
-  <section id="company">
-  <div class = "container-fluid">
+<div class="content-section-a">
+  <div class="container">
     <div class="row">
-      <div class="col-sm-4 ">
-        <div class="thumbnail">
-          <img src="http://y.photo.qq.com/img?s=VfqbvmFVI&l=y.jpg" alt="search" class = "img-thumbnail">
-          <div class="caption">
-            <h3>北京朝阳建外SOHO</h3>
-          </div>
-        </div>
+      <div class="col-lg-5 col-sm-6">
+        <hr class="section-heading-spacer">
+        <div class="clearfix"></div>
+        <h2 class="section-heading">与志同道合的boss面谈</h2>
+        <p class="lead">合适可即可签约</p>
       </div>
-      <div class="col-sm-4 ">
-        <div class="thumbnail">
-          <img src="http://y.photo.qq.com/img?s=9yBkCQVj7&l=y.jpg" alt="bid" class = "img-thumbnail">
-          <div class="caption">
-            <h3>info@18koffer.com</h3>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-4 ">
-        <div class="thumbnail">
-          <img src="http://y.photo.qq.com/img?s=bAQJ8dfF4&l=y.jpg" alt="heart" class = "img-thumbnail">
-          <div class="caption">
-            <h3>010-12344321</h3>
-          </div>
-        </div>
+      <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+        <%= image_tag 'pic-1.jpg', class: 'img-responsive' %>
       </div>
     </div>
   </div>
-</section>
+</div>
+
+<div class="content-section-b">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+        <hr class="section-heading-spacer">
+        <div class="clearfix"></div>
+        <h2 class="section-heading">与海外公司远程面试</h2>
+        <p class="lead">一旦签约可获得本平台大礼包</p>
+      </div>
+      <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+        <%= image_tag 'pic-2.jpg', class: 'img-responsive' %>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="content-section-a">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-5 col-sm-6">
+        <hr class="section-heading-spacer">
+        <div class="clearfix"></div>
+        <h2 class="section-heading">海投简历<br>更多机遇</h2>
+        <p class="lead">等你来拿</p>
+      </div>
+      <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+        <%= image_tag 'pic-3.jpg', class: 'img-responsive' %>
+      </div>
+    </div>
+  </div>
+</div>
